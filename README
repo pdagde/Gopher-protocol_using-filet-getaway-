@@ -1,0 +1,24 @@
+about the CLI which will talk to figlet gateway hosted at gopher protocol
+.........................................................................
+
+compile the user_command.c file using
+      gcc user_command.c -o user_command.out
+
+then compile gopher_server
+      gcc gopher_server.c -o gopher_server.out
+
+then run gopher_server 
+
+     ./gopher_server.out
+
+finally run user command another terminal
+     ./user_command.out
+
+CLI >> -h,---help   (HELP)
+CLI >> -l ,--list-font  (list all font which is in gopher protocol)
+CLI >> put any font which (display using CLI >> -l) e.g CLI >> <any_string> <space> <font>
+                                                        CLI >> helpshift big
+                                                        CLI >> HELPSHIFT small
+                                                        CLI >> abc@123 lean
+
+ 

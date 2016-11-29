@@ -1,0 +1,6 @@
+cLI>> --help  (which display all CLI related information)
+CLI >> -h   (this is another option to display all CLI related information)
+CLI >> -l   (which display all supported font format in figlet getway hosted by gopher protocol)
+CLI >> --list-font  (another option to  display the supported font formant in figlet getway hosted in gopher protocol)
+CLI >> (<string> and supported font from --list-font   e.g  CLI >> <string> <small>,CLI >> <string> big)
+...............................................................................................................
